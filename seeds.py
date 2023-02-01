@@ -3,6 +3,9 @@ import connect
 import json
 
 
+quote = Quote.objects().delete()
+author = Author.objects().delete()
+
 with open('data/authors.json', "rb") as fh:
     authors = json.load(fh)
     for a in authors:
