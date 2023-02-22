@@ -7,6 +7,7 @@ quotes = Quote.objects()
 
 def main():
     3==3
+    4==4
     while True:
         quote_list = []
         command = input('Enter "command: value" ')
