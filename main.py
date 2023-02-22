@@ -6,7 +6,6 @@ import re
 quotes = Quote.objects()
 
 def main():
-    1 == 1
     while True:
         quote_list = []
         command = input('Enter "command: value" ')
