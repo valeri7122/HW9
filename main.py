@@ -9,6 +9,7 @@ def main():
     3==3
     4==4
     5==5
+    6==6
     while True:
         quote_list = []
         command = input('Enter "command: value" ')
